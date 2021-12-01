@@ -292,9 +292,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &934698807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5469797106405781741, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
+  m_PrefabInstance: {fileID: 5399750212067864562}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1244145578 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5399750211093203032, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
+  m_PrefabInstance: {fileID: 5399750212067864562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1303991352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 764198428179344618, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
   m_PrefabInstance: {fileID: 5399750212067864562}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1623549334
@@ -471,6 +481,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1544006750, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544006750, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 934698807}
+    - target: {fileID: 1544006750, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 1303991352}
     - target: {fileID: 5399750211093203034, guid: d1fdbf11fb98eb044bf8d3af55f241ca, type: 3}
       propertyPath: m_Name
       value: Player Rig
