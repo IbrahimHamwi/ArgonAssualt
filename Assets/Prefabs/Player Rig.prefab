@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6513490486713350478, guid: 9c3fac394d6f748499a1cef731f3a276, type: 3}
+      propertyPath: crashVFX
+      value: 
+      objectReference: {fileID: 1882128108822350393}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c3fac394d6f748499a1cef731f3a276, type: 3}
 --- !u!1 &7662376385652902335 stripped
@@ -200,6 +204,11 @@ GameObject:
 --- !u!4 &6998006773271401221 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5546859629782835660, guid: 9c3fac394d6f748499a1cef731f3a276, type: 3}
+  m_PrefabInstance: {fileID: 3307767914324013769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1882128108822350393 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4033295552494303472, guid: 9c3fac394d6f748499a1cef731f3a276, type: 3}
   m_PrefabInstance: {fileID: 3307767914324013769}
   m_PrefabAsset: {fileID: 0}
 --- !u!54 &5604520144694020753
